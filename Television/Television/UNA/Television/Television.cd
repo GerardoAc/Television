@@ -1,2 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Television.Serie">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAIAAAAAAAAAAAAAAAAEABA=</HashCode>
+      <FileName>UNA\Television\Serie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Television.Temporada">
+    <Position X="5.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACABAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UNA\Television\Temporada.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Television.Usuario">
+    <Position X="1.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAIEAAIAgAAAAAAAAAAABBAgAAAAAAA=</HashCode>
+      <FileName>UNA\Television\Usuario.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Sugerir" />
+      <Property Name="Temporada" />
+      <Property Name="Capitulo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Television.Capitulo">
+    <Position X="7.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>UNA\Television\Capitulo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Television.Sugerir">
+    <Position X="3.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Sugerir.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Serie" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
