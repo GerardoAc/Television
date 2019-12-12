@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Television
 {
-    public class Capitulo
+    public class Capitulo : Temporada
     {
         public string Titulo
         {
@@ -23,6 +23,14 @@ namespace Television
         {
             get;
             set;
+        }
+
+        public int Porcentaje
+        {
+            get => default;
+            set
+            {
+            }
         }
     }
 }

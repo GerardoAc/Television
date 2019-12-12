@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Television
 {
-    public class Serie : Temporada
+    public class Serie
     {
         public string Titulo
         {
@@ -29,6 +29,22 @@ namespace Television
         {
             get;
             set;
+        }
+
+        public Marcar Marcar
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public MarcarFavorito MarcarFavorito
+        {
+            get => default;
+            set
+            {
+            }
         }
     }
 }

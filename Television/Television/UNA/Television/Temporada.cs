@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Television
 {
-    public class Temporada : Capitulo
+    public class Temporada : Serie
     {
         public int FechaProducion
         {

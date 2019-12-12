@@ -1,21 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Television.Serie">
-    <Position X="1.5" Y="0.5" Width="1.5" />
+    <Position X="3.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAgAAAAAAAAAAAIAAAAAAAAAAAAAAAAEABA=</HashCode>
+      <HashCode>AAAAABAgAAgAAAAAAAAAAAIAAAAAAAAAAAAAAAAEABA=</HashCode>
       <FileName>UNA\Television\Serie.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MarcarFavorito" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="Television.Temporada">
-    <Position X="5.25" Y="0.75" Width="1.5" />
+    <Position X="6.75" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAACABAAAABAAAAAAAAAAAAAAA=</HashCode>
       <FileName>UNA\Television\Temporada.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Television.Usuario">
-    <Position X="1.25" Y="2.75" Width="1.5" />
+    <Position X="2.5" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>EAAAAAAAAAAAAAIEAAIAgAAAAAAAAAAABBAgAAAAAAA=</HashCode>
       <FileName>UNA\Television\Usuario.cs</FileName>
@@ -27,20 +30,30 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="Television.Capitulo">
-    <Position X="7.5" Y="1" Width="1.5" />
+    <Position X="9.25" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAgAAABAAAAAAAAAAAAABA=</HashCode>
       <FileName>UNA\Television\Capitulo.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Television.Sugerir">
-    <Position X="3.75" Y="2.25" Width="1.5" />
+    <Position X="5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
-      <FileName>Sugerir.cs</FileName>
+      <FileName>UNA\Television\Sugerir.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Serie" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Television.MarcarFavorito">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAEAAAAAAA=</HashCode>
+      <FileName>UNA\Television\Marcar.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Usuario" />
     </ShowAsAssociation>
   </Class>
   <Font Name="Segoe UI" Size="9" />
